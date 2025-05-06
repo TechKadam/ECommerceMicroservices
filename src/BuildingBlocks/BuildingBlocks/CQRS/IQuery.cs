@@ -1,4 +1,4 @@
-﻿using MediatR;
+﻿using Mediator.Abstractions;
 
 namespace BuildingBlocks.CQRS;
 
