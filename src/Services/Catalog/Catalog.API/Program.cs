@@ -13,6 +13,7 @@ builder.Services.AddMarten(options =>
 {
     options.Connection(builder.Configuration.GetConnectionString("Database")!);
 }).UseLightweightSessions();
+
 var app = builder.Build();
 
 
